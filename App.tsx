@@ -4,7 +4,7 @@ import Header from './components/Header';
 import ShipmentForm from './components/ShipmentForm';
 import LogisticsPlan from './components/LogisticsPlan';
 import CostBreakdownChart from './components/CostBreakdownChart';
-import { generateLogisticsPlan } from './services/geminiService';
+import { generateLogisticsPlan } from './services/openaiService';
 import { ShipmentDetails, LogisticsResult } from './types';
 import { Info, AlertCircle, Clock, Truck } from 'lucide-react';
 
